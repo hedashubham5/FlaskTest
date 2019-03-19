@@ -8,3 +8,7 @@ def hello():
 @app.route("/demo")
 def demo():
     return "Demo site website"
+
+@app.route('/test')
+def test():
+    return "Testing environment"
