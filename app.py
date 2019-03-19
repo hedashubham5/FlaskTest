@@ -7,4 +7,4 @@ def hello():
 
 @app.route("/demo")
 def demo():
-    return "Demo site"
+    return "Demo site website"
